@@ -1,0 +1,29 @@
+{
+  "title":			"module_header_tags_google_analytics",
+  "type":       "meta tag",
+  "vendor":			"ClicShopping",
+  "is_free":   "Yes",
+  "website_link_to_sell" : "",
+  "version":			1.0,
+  "req_core_version":	3.0,
+  "license":			"GPL 2 - MIT",
+  "tag":			    "header tag, script, meta tag, analytics, google",
+  "install":            "includes/modules/",
+  "module_directory":   "header_tags",
+  "apps_name":          "",
+  "type_module":        "fixe",
+  "dependance":         "",
+
+ "description":        "This module allow you to insert meta about google analytics",
+  "image":              "",
+
+  "authors": [
+    {
+      "name":		    "ClicShopping Team",
+      "company":	    "Innov-concept",
+      "email":	        "",
+      "website":	    "http://www.clicshopping.org",
+      "Community":	  "http://www.clicshopping.net"
+    }
+  ]
+}

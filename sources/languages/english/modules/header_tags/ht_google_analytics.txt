@@ -1,0 +1,4 @@
+
+ module_header_tags_google_analytics_title = Do  you want use Google Analytics ?
+ module_header_tags_google_analytics_description = Add Google Analytics to the store
+
