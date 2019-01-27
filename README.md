@@ -33,8 +33,7 @@ You must have an open account with Google Universal Analytics
 Technical Prerequisites: None
 
 Modules:
-- Compatibility: < version 3.0
-- Certified by e- Imaginis
+- License GPL2 - MIT
 - Multi- languages
 
 Recommendation and documentation specific use :
