@@ -113,17 +113,17 @@
             $header .= "  });" . "\n";
 
             $QorderProducts = $CLICSHOPPING_Db->prepare('select op.products_id,
-                                                         pd.products_name,
-                                                         op.final_price,
-                                                         op.products_quantity
-                                                  from :table_orders_products op,
-                                                       :table_products_description pd,
-                                                       :table_languages  l
-                                                  where op.orders_id = :orders_id
-                                                  and op.products_id = pd.products_id
-                                                  and l.code = :code
-                                                  and l.languages_id = pd.language_id
-                                               ');
+                                                                 pd.products_name,
+                                                                 op.final_price,
+                                                                 op.products_quantity
+                                                          from :table_orders_products op,
+                                                               :table_products_description pd,
+                                                               :table_languages  l
+                                                          where op.orders_id = :orders_id
+                                                          and op.products_id = pd.products_id
+                                                          and l.code = :code
+                                                          and l.languages_id = pd.language_id
+                                                       ');
 
             $QorderProducts->bindInt(':orders_id', (int)$order['orders_id'] );
             $QorderProducts->bindValue(':code',  DEFAULT_LANGUAGE );
