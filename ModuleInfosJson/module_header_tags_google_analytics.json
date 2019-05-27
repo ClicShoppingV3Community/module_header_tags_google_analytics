@@ -3,6 +3,7 @@
   "type":       "meta tag",
   "vendor":			"ClicShopping",
   "is_free":   "Yes",
+  "is_core": "no",
   "website_link_to_sell" : "",
   "version":			1.0,
   "req_core_version":	3.0,
