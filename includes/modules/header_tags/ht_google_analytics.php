@@ -182,7 +182,7 @@
 
       $CLICSHOPPING_Currencies = Registry::get('Currencies');
 
-      if (empty($currency_code) || !$CLICSHOPPING_Currencies->is_set($currency_code)) {
+      if (empty($currency_code) || !$CLICSHOPPING_Currencies->isSet($currency_code)) {
         $currency_code = $_SESSION['currency'];
       }
 
