@@ -16,8 +16,8 @@
 
   class ht_google_analytics
   {
-    public string $code;
-    public string $group;
+    public $code;
+    public $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
